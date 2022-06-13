@@ -1,0 +1,28 @@
+.profiles {
+    display: flex;
+    font-size: 1.5em;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.passwordCard {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    flex-grow: 1;
+    background-color: chartreuse;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+}
+
+.passwordCard input, .passwordCard select{
+    margin: 5px 10px;
+    width: 100%;
+    max-width: 150px;
+}

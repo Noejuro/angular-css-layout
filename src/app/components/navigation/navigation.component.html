@@ -1,0 +1,9 @@
+<nav>
+    <app-item-container 
+        *ngFor="let section of [1,2,3,4]"
+        [text]="'Section ' + section"
+        size="1" 
+        backgroundColor="transparent" 
+        [border]="section % 2 === 0 ? 'red' : 'greenyellow'"
+    ></app-item-container>
+</nav>

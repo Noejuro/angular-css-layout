@@ -1,0 +1,17 @@
+<header>
+    <div class="logoContainer">
+        <img src="assets/images/logo.png" alt="Logo" class="logo">
+    </div>
+    <div class="topicsContainer">
+        <app-item-container 
+            *ngFor="let topic of [1,2,3,4]"
+            [text]="'Topic ' + topic"
+            size="1.5" 
+            backgroundColor="red" 
+            border="black"
+        ></app-item-container>
+    </div>
+    <div class="searchBarContainer">
+        <input type="text" placeholder="Search" >
+    </div>
+</header>

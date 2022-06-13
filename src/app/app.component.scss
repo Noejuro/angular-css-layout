@@ -1,0 +1,17 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 10px;
+}
+
+.right-container {
+    display: flex;
+    flex-flow: column;
+}
+
+app-external-links {
+    background-color: yellow;
+    padding: 30px 20px;
+    font-size: 2.5em;
+    flex-grow: 1;
+}

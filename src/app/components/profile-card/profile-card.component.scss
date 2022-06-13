@@ -1,0 +1,26 @@
+.profileCard {
+    flex-grow: 1;
+    background-color: chartreuse;
+    height: 100%;
+    width: auto;
+    max-width: 300px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profileCard div {
+    margin: 10px
+}
+
+.text {
+    background-color: antiquewhite;
+    padding: 2px;
+}
+
+.userIcon {
+    max-width: 100px;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+}
